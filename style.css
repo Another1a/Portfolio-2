@@ -65,6 +65,13 @@ p{
     padding: 120px 60px;
 }
 
+.nav-link{
+    
+font-size:18px;
+line-height: 24px;
+padding-right: 20px;
+}
+
 @media(max-width: 900px ){
     .project-description{
         padding: 0;
