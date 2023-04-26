@@ -19,8 +19,14 @@ h1{
     font-family: var(--heading-font-family);
     font-weight: bold; 
     font-size: 96px;
+    line-height: 1.5;
 }
-p{
+h2{
+    font-size: 64px;
+    font-family: var(--heading-font-family);
+
+}
+.hero p{
    
     font-weight: bold;
     font-size: 36px; 
@@ -35,10 +41,43 @@ p{
     line-height: 27px;
 
 }
+.btn-branding-outline{
+    border: 1px solid var(--branding-color);
+    color: var(--branding-color);
+    padding: 18px 30px;
+    border-radius: 4px;
+    font-size: 18px;
+    line-height: 27px;
+}
 .hero h3{
     
     font-weight: normal;
     font-size:24px;
-    line-height: 2;
+    line-height:1.5;
     color: var(--secondary-color)
+}
+p{
+    font-size: 16px;
+    line-height: 30px;
+    font-weight: normal;
+}
+.project-description{
+    padding: 120px 60px;
+}
+
+@media(max-width: 900px ){
+    .project-description{
+        padding: 0;
+      text-align: center;
+    }
+    h1{
+        font-size: 54px;
+    }
+    h2{
+        font-size: 44px;
+    }
+    .hero{
+      
+        padding: 80px 20px;
+    }
 }
